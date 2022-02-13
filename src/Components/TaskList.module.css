@@ -1,0 +1,24 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 1em;
+}
+
+.btns {
+  padding: 1em;
+}
+
+button {
+  background-color: #ac7ec4;
+  color: white;
+  padding: 0.5em;
+  border: 0;
+}
