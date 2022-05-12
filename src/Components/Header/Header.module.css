@@ -1,5 +1,22 @@
 .title {
-    text-align: center;
-    padding-top: 0.5em;
-    font-size: 2em;
+  text-align: center;
+  padding-top: 0.5em;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1030px) {
+  .card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  .title {
+    font-size: 1em;
+  }
+
+  .card {
+    width: 90%;
+  }
 }

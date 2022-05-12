@@ -2,18 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding-top: 0.5em;
 }
 
 ul {
   list-style: none;
+  padding-bottom: 0.5em;
 }
 
 li {
   padding: 1em;
+  font-size: 1em;
+  word-wrap: break-word;
+  overflow: hidden;
+  width: 50%;
 }
 
 .btns {
   padding: 1em;
+  font-size: 1em;
 }
 
 button {
@@ -21,4 +30,50 @@ button {
   color: white;
   padding: 0.5em;
   border: 0;
+}
+
+.button {
+  width: 5em;
+}
+
+@media (max-width: 1030px) {
+  .card {
+    width: 60%;
+  }
+
+  .btns {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 90%;
+  }
+
+  li {
+    font-size: 0.8em;
+    padding: 0.5em;
+  }
+  .btns {
+    font-size: 0.8em;
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 410px) {
+  .task {
+    display: block;
+    text-align: center;
+  }
+
+  li {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul {
+    text-align: center;
+    padding: 0.5em;
+  }
 }
