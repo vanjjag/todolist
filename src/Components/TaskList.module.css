@@ -4,12 +4,11 @@
   align-items: center;
   border-radius: 12px;
   border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding-top: 0.5em;
+  padding: 0.5em;
 }
 
 ul {
   list-style: none;
-  padding-bottom: 0.5em;
 }
 
 li {
@@ -36,7 +35,7 @@ button {
   width: 5em;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1060px) {
   .card {
     width: 60%;
   }
@@ -46,34 +45,38 @@ button {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 750px) {
   .card {
     width: 90%;
   }
 
   li {
     font-size: 0.8em;
-    padding: 0.5em;
   }
   .btns {
     font-size: 0.8em;
-    padding: 0.5em;
+    padding: 0;
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 430px) {
+  .card{
+    font-size: 0.8em;
+  }
+  
   .task {
     display: block;
     text-align: center;
   }
 
   li {
-    padding: 0;
     width: 100%;
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0;
   }
 
   ul {
     text-align: center;
-    padding: 0.5em;
+    padding: 0;
   }
 }

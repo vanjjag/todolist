@@ -12,6 +12,7 @@ const AddTask = (props) => {
     }
     setEnteredTask("");
     props.onAddTask(enteredTask);
+    console.log(props.counter);
   };
 
   const taskChangeHandler = (event) => {

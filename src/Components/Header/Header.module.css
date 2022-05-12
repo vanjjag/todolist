@@ -5,13 +5,13 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1060px) {
   .card {
     width: 60%;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 750px) {
   .title {
     font-size: 1em;
   }
